@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: 'allerbold';
+    src: url('aller_bd-webfont.eot');
+    src: url('aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aller_bd-webfont.woff2') format('woff2'),
+         url('aller_bd-webfont.woff') format('woff'),
+         url('aller_bd-webfont.ttf') format('truetype'),
+         url('aller_bd-webfont.svg#allerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/****************/
+/****Générales***/
+/****************/
+
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	background: #ffffff url("images/bg.jpg") no-repeat right top;
+	background-size: cover;
+}
+
+/****************/
+/***Navigation***/
+/****************/
+
+.brand {
+	margin-right: 60%;
+}
+
+.container {
+	padding: 10px;
+}
+
+
+/********************/
+/***Main contener ***/
+/********************/
+
+.major-title{
+	width: 940px;
+	margin: 10px auto 50px;
+	font-family: 'allerbold';
+	color: #484848;
+}
+
+.badge-info {
+	font-size: 30px;
+	height: 45px;
+	line-height: 45px;
+	vertical-align: middle;
+	width: 45px;
+	text-align: center;
+	clear: left;
+}
+.s-main {
+	position: relative;
+	width: 940px;
+	min-height: 350px;
+	margin: 0px auto 50px;
+	background-color: #f8f8f8;
+	box-shadow: 0px 5px 10px #282828;
+}
+
+.s-sub-main {
+	margin-left: 40px;
+}
+
+.s-main h2,
+.s-main img {
+	float: left;
+	padding-top: 30px;
+	padding-left: 30px;
+	margin-bottom: 25px;
+}
+
+.s-sub-main .badge-info {
+	float: left;
+}
+
+.s-sub-main p {
+	float: left;
+	font-size: 16px;
+	line-height: 50px;
+	margin-left: 20px;
+}
+
+/********************/
+/***Footer ***/
+/********************/
+
+#s-footer {
+	font-size: 13px;
+	padding: 10px 0px;
+	background-color: #282828;
+}
