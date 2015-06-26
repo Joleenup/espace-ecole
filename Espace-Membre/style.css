@@ -21,6 +21,7 @@ body {
 	background-size: cover;
 }
 
+
 /****************/
 /***Navigation***/
 /****************/
@@ -33,7 +34,6 @@ body {
 	padding: 10px;
 }
 
-
 /********************/
 /***Main contener ***/
 /********************/
@@ -45,26 +45,57 @@ body {
 	color: #484848;
 }
 
-.badge-info {
-	font-size: 30px;
-	height: 45px;
-	line-height: 45px;
-	vertical-align: middle;
-	width: 45px;
-	text-align: center;
-	clear: left;
-}
 .s-main {
 	position: relative;
 	width: 940px;
-	min-height: 350px;
+	min-height: 800px;
 	margin: 0px auto 50px;
 	background-color: #f8f8f8;
 	box-shadow: 0px 5px 10px #282828;
 }
 
-.s-sub-main {
-	margin-left: 40px;
+#s-sub-main1,
+#s-sub-main2,
+#s-sub-main3 {
+	height: 250px;
+	width: 250px;
+	margin-top: 50px;
+	margin-left: 20px;
+	background-color: #f2f2f2;
+	text-align: center;
+	font-family: 'allerbold';
+}
+
+#s-sub-main1 {
+	background-color: #5AB2DA;
+}
+
+#s-sub-main2 {
+	background-color: #AA0465;
+}
+
+#s-sub-main3 {
+	background-color: #04AA7B;
+}
+
+#s-sub-main1 p,
+#s-sub-main2 p,
+#s-sub-main3 p  {
+	float: left;
+	font-size: 32px;
+	line-height: 45px;
+	margin-left: 20px;
+	color: #fff;
+}
+
+.number
+ {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	padding-top: 50px;
+	font-size: 80px;
+	font-weight: bold;
+	color: #fff;
 }
 
 .s-main h2,
@@ -75,16 +106,32 @@ body {
 	margin-bottom: 25px;
 }
 
-.s-sub-main .badge-info {
-	float: left;
+/********************/
+/***Tableau ***/
+/********************/
+
+.table {
+	clear: left;
 }
 
-.s-sub-main p {
-	float: left;
-	font-size: 16px;
-	line-height: 50px;
-	margin-left: 20px;
+.table td:first-child,
+.table th:first-child {
+	padding-left: 50px;
 }
+
+.table td:last-child,
+.table th:first-child {
+	padding-right: 50px;
+}
+
+.table h2 {
+	margin-top: 50px;
+}
+
+.table img {
+	margin-top: 40px;
+}
+
 
 /********************/
 /***Footer ***/
